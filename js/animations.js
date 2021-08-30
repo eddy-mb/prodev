@@ -49,10 +49,10 @@ ScrollReveal().reveal(".container_nosotros__mis-vis", {
   duration: 1000,
   reset: true,
 });
-ScrollReveal().reveal(".container_portafolio__secondary", {
+ScrollReveal().reveal(".container_portafolio__info", {
   origin: "top",
   distance: "50%",
-  duration: 1000,
+  duration: 1500,
   reset: true,
 });
 

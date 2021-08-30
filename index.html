@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon_prodev.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
     <script src="./js/scrollreveal.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a24ca8a8b6.js" crossorigin="anonymous"></script>
     <title>Inicio - PRODEV</title>
 </head>
 
@@ -20,6 +23,7 @@
             <a href="./index.html"><img src="./img/logo.png" alt="Logotipo PRODEV"></a>
         </header>
         <nav class="navigation">
+            <div class="navigation__icon"><i class="fas fa-bars"></i></div>
             <ul class="list_nav">
                 <li> <a class="active" data-url="inicio" href="#inicio">INICIO</a> </li>
                 <li> <a data-url="nosotros" href="#nosotros">NOSOTROS</a> </li>
@@ -31,10 +35,10 @@
     </div>
     <main class="container__principal">
         <div class="container_main scroll" id="inicio">
+            <h2>¡Bienvenidos!</h2>
             <div class="container_home">
                 <div class="container__image"></div>
                 <section class="container__text">
-                    <h2>¡Bienvenidos!</h2>
                     <h1>Desarrollo de sitios web</h1>
                     <h3>SOLUCIONES DIGITALES PARA EMPRESAS</h3>
                     <article>
@@ -93,67 +97,81 @@
                 <h2> <span>NUESTROS</span> SERVICIOS</h2>
             </div>
             <div class="container_services__main">
-                <div class="container_services__secondary animation__services__one">
-                    <section class="container_services__third espacio ">
-                        <div class="container_services__img diseno_web__img"></div>
-                        <div class="container_services__txt">
-                            <h3>DISEÑO WEB</h3>
-                            <p>Un sitio web bien hecho garantiza que cualquier persona pueda acceder a su marca desde un
-                                ordenador o dispositivo portátil.
-                            </p>
-                            <p>La tarea principal de cualquier sitio web es crear una impresión positiva en los
-                                visitantes desde la portada y mantener su atención, como resultado, un buen sitio web
-                                hará que se pongan en contacto con usted. Si el
-                                visitante no quiere contactarlo, su sitio web no es bueno.</p>
+                <div class="container_services__secondary ">
+                    <section class="container_services__third animation__services__one ">
+                        <h3>DISEÑO WEB</h3>
+                        <div class="services">
+                            <div class="container_services__img diseno_web__img"></div>
+                            <div class="container_services__txt">
+                                <p>Un sitio web bien hecho garantiza que cualquier persona pueda acceder a su marca
+                                    desde un
+                                    ordenador o dispositivo portátil.
+                                </p>
+                                <p>La tarea principal de cualquier sitio web es crear una impresión positiva en los
+                                    visitantes desde la portada y mantener su atención, como resultado, un buen sitio
+                                    web
+                                    hará que se pongan en contacto con usted. Si el
+                                    visitante no quiere contactarlo, su sitio web no es bueno.
+                                </p>
+                            </div>
                         </div>
                     </section>
-                    <section class="container_services__third espacio">
-                        <div class="container_services__img diseno_grafico__img">
-                        </div>
-                        <div class="container_services__txt">
-                            <h3>DISEÑO GRAFICO</h3>
-                            <p>PRODEV también realiza la creación de un diseño gráfico de alta eficacia. Una idea audaz
-                                con una presentación elegante le ayudará a capturar el corazón de los clientes y
-                                convertirlos de los visitantes en clientes.
-                            </p>
-                            <p>
-                                El diseño se desarrollará directamente para su marca, con las formas, colores y fuentes
-                                relevantes.
-                            </p>
-                            <p>
-                                El buen diseño gráfico es una importante herramienta de marketing digital y una clave
-                                para ganar y mantener clientes.
-                            </p>
-                        </div>
-                    </section>
-                </div>
-                <div class="container_services__secondary animation__services__two">
-                    <section class="container_services__third">
-                        <div class="container_services__img branding__img">
-                        </div>
-                        <div class="container_services__txt">
-                            <h3>BRANDING & DISEÑO DE LOGOTIPOS</h3>
-                            <p>Crear un logotipo sobresaliente es la parte más importante de la creación de su
-                                identidad de marca. El logotipo es el corazón de su negocio, que sus clientes vendrán a
-                                recordar. PRODEV creará un logotipo simple pero notable que a usted y a sus clientes les
-                                encantará.
-                            </p>
-                            <p>
-                                Podemos hacer un diseño de logotipo corporativo, de marca y de artista, marcas de
-                                palabras, símbolos, iconos emblemas y mas.
-                            </p>
+                    <section class="container_services__third animation__services__one">
+                        <h3>DISEÑO GRAFICO</h3>
+                        <div class="services">
+                            <div class="container_services__img diseno_grafico__img">
+                            </div>
+                            <div class="container_services__txt">
+                                <p>PRODEV también realiza la creación de un diseño gráfico de alta eficacia. Una idea
+                                    audaz
+                                    con una presentación elegante le ayudará a capturar el corazón de los clientes y
+                                    convertirlos de los visitantes en clientes.
+                                </p>
+                                <p>
+                                    El diseño se desarrollará directamente para su marca, con las formas, colores y
+                                    fuentes
+                                    relevantes.
+                                </p>
+                                <p>
+                                    El buen diseño gráfico es una importante herramienta de marketing digital y una
+                                    clave
+                                    para ganar y mantener clientes.
+                                </p>
+                            </div>
                         </div>
                     </section>
-                    <section class="container_services__third">
+                    <!-- <div class="container_services__secondary"> -->
+                    <section class="container_services__third animation__services__two">
+                        <h3>BRANDING & DISEÑO DE LOGOTIPOS</h3>
+                        <div class="services">
+                            <div class="container_services__img branding__img">
+                            </div>
+                            <div class="container_services__txt">
+                                <p>Crear un logotipo sobresaliente es la parte más importante de la creación de su
+                                    identidad de marca. El logotipo es el corazón de su negocio, que sus clientes
+                                    vendrán a
+                                    recordar. PRODEV creará un logotipo simple pero notable que a usted y a sus clientes
+                                    les
+                                    encantará.
+                                </p>
+                                <p>
+                                    Podemos hacer un diseño de logotipo corporativo, de marca y de artista, marcas de
+                                    palabras, símbolos, iconos emblemas y mas.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section class="container_services__third">
                         <div class="container_services__img">
                         </div>
                         <div class="container_services__txt">
-                            <!-- <h3>OTROS</h3>
+                            <h3>OTROS</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ipsam eum nam assumenda
                                 similique, voluptas minima? Minus quaerat explicabo quam!
-                            </p> -->
+                            </p>
                         </div>
-                    </section>
+                    </section> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
@@ -162,11 +180,13 @@
                 <h2> <span>NUESTRO</span> PORTAFOLIO</h2>
             </div>
             <div class="container_portafolio__secondary">
-                <section class="container_portafolio__third container_portafolio__info">
-                    <h3>DISEÑO WEB</h3>
-                    <div class="container_portafolio__dw">
-                        <img src="./img_ptl/dw1.png" alt="Imagen 1">
-                        <img src="./img_ptl/dw2.png" alt="Imagen 2">
+                <section class="container_portafolio__third">
+                    <div class="container_portafolio__info">
+                        <h3>DISEÑO WEB</h3>
+                        <div class="container_portafolio__dw">
+                            <img src="./img_ptl/dw1.png" alt="Imagen 1">
+                            <img src="./img_ptl/dw2.png" alt="Imagen 2">
+                        </div>
                     </div>
                 </section>
                 <section class="container_portafolio__third">
@@ -199,7 +219,8 @@
             </div>
             <div class="container_contacto__main">
                 <div class="container_contacto_img">
-                    <p>Nos pondremos en contacto contigo pronto, normalmente respondemos dentro de las 24 horas.</p>
+                    <p>Nos pondremos en contacto contigo pronto.</p>
+                    <p>Normalmente respondemos dentro de las 24 horas.</p>
                 </div>
                 <div class="container__form">
                     <form class="formulario" action="">
@@ -248,6 +269,7 @@
     </footer>
     <script src="./js/animations.js"></script>
     <script src="./js/active.js"></script>
+    <script src="./js/mobile.js"></script>
 </body>
 
 </html>

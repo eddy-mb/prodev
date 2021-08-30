@@ -29,7 +29,7 @@ addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver(funcion_observer, {
     root: null,
     rootMargin: "0px",
-    threshold: 0.6,
+    threshold: 0.7,
   });
   sections.forEach((seccion) => observer.observe(seccion));
 });
